@@ -12,7 +12,10 @@ Covers the following modules,
 - ESP32-WROVER-I
 - ESP32-WROVER-B (IPEX)
 
-### Prereqs (mac)
+## Setup
+mac instructions, windows will be similar.
+
+### prereqs
 1. `pip install --user virtualenv`
 2. create a virtual environment
     - `virtualenv venv`
@@ -20,3 +23,12 @@ Covers the following modules,
 3. `pip install pyserial`
 4. `brew install cmake ninja ccache`
 5. `git submodule update --init --remote`
+
+### tools
+1. `cd` to your normal repo clone directory, you will be cloning a new repo
+2. `git clone https://github.com/espressif/esp-idf.git --recursive`
+3. `cd esp-idf`
+4. `./install.sh` (creates tools in home dir *~\.espressif* & environment variable *IDF_TOOLS_PATH*)
+5. `. export.sh`
+
+### environment variables
