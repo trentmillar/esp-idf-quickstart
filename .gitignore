@@ -3,3 +3,7 @@ venv
 
 # ESP-IDF source
 esp-idf
+
+# Build output
+build
+sdkconfig

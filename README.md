@@ -22,7 +22,7 @@ mac instructions, windows will be similar.
     - `source venv/bin/activate`
 3. `pip install pyserial`
 4. `brew install cmake ninja ccache`
-5. `git submodule update --init --remote`
+5. `git submodule update --init --recursive`
 
 ### tools
 1. `cd` to your normal repo clone directory, you will be cloning a new repo
@@ -31,4 +31,6 @@ mac instructions, windows will be similar.
 4. `./install.sh` (creates tools in home dir *~\.espressif* & environment variable *IDF_TOOLS_PATH*)
 5. `. export.sh`
 
-### environment variables
+
+### start project
+1. `idf.py menuconfig`
